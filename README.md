@@ -10,6 +10,16 @@ here.
 
 Test user: `test` and pw `test`.
 
+# Chris' NOTES
+I updated the code to use psql. The test user mentioned above does not exist
+there. 
+
+you can largely follow the [Simple JWT
+Documentation](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html)
+to set up the auth aspects of the backend. For the front end, the important
+React bits are located in [src/api/auth.js](jwt-react/src/api/auth.js)
+
+##### MAKE SURE TO SWITCH TO NODE VERSION 16 IF YOU ARE TRYING TO RUN THE REACT SERVER
 ---
 ### Example repositories
 
